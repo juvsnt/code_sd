@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <mpi.h>
 
-#define N 1000 /* number of rows and columns in matrix */
+#define N 3000 /* number of rows and columns in matrix */
 
 MPI_Status status;
 double a[N][N], b[N][N], c[N][N];
